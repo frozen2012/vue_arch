@@ -1,6 +1,6 @@
-# vue_demo
+# vue_arch
 
-> A Vue.js project
+> my vue project architecture 
 
 ## Build Setup
 
