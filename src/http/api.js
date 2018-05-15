@@ -2,7 +2,7 @@ import APIURL from './apiUrl'
 import axios from './request'
 
 /**
- * 把公用函数添加的数据对象上
+ * 把公共参数添加到数据对象
  * @param $param
  * @returns {*}
  */

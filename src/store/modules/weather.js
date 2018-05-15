@@ -7,14 +7,8 @@ const state = {
 
 // actions
 const actions = {
-    /**
-     * 请求栏目数据
-     * @param commit
-     * @param dispatch
-     */
     init:function({commit, dispatch}, {city}) {
         axios.all([
-            //请求栏目数据
             getWeather({city})
         ]).then(axios.spread(
             (d) => {
